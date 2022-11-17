@@ -1,0 +1,13 @@
+
+$(document).ready(function () {
+    
+$('.button-add').click(function() {
+    $('.request-containers-add').append($('<div  id="request-container-add" class="row col-md-12 request-container-add  row"><div class="col-md-4"> <label for="inputCity" class="form-label">Бренд</label> <select  name="optionBrend" class="form-select" aria-label="Default select example"><option selected>Выберите бренд</option> <option value="Бренд1">Бренд1</option> <option value="Бренд2">Бренд2</option> <option value="Бренд3">Бренд3</option></select></div>     <div class="col-md-4"> <label for="inputCity" class="form-label">Наименование</label><input type="text" class="form-control" name="brand" id="inputCity" placeholder=""></div> <div class="col-md-4"><label for="inputCity" class="form-label">Количество</label><input type="text" class="form-control" name="sum" id="inputCity" placeholder=""></div> <div class="col-md-4"><label for="inputCity" class="form-label">Фасовка</label><input type="text" class="form-control" name="fas" id="inputCity" placeholder=""> </div> <div class="col-md-4"><label for="inputCity" class="form-label">Клиент</label><input type="text" class="form-control" name="client" id="inputCity" placeholder="">', {
+     }));
+  });
+  $('.button-add').click(function() {
+    $('.request-containers-add').remove($('<div  id="request-container-add" class="row col-md-12 request-container-add  row"><div class="col-md-4"> <label for="inputCity" class="form-label">Бренд</label> <select  name="optionBrend" class="form-select" aria-label="Default select example"><option selected>Выберите бренд</option> <option value="Бренд1">Бренд1</option> <option value="Бренд2">Бренд2</option> <option value="Бренд3">Бренд3</option></select></div>     <div class="col-md-4"> <label for="inputCity" class="form-label">Наименование</label><input type="text" class="form-control" name="brand" id="inputCity" placeholder=""></div> <div class="col-md-4"><label for="inputCity" class="form-label">Количество</label><input type="text" class="form-control" name="sum" id="inputCity" placeholder=""></div> <div class="col-md-4"><label for="inputCity" class="form-label">Фасовка</label><input type="text" class="form-control" name="fas" id="inputCity" placeholder=""> </div> <div class="col-md-4"><label for="inputCity" class="form-label">Клиент</label><input type="text" class="form-control" name="client" id="inputCity" placeholder="">', {
+     }));
+  });
+     
+});
